@@ -1,0 +1,10 @@
+two systems - local(pc) and remote(github)
+to clone from github to pc we use git clone <link from the github of the repository>
+
+cd-change dictory(folder) - means we have to move from large repo to inner one (duniya) we use cd Duniya(tab) then we move in the repo of duniya
+to clear the terminal - clear
+ls- gives list of folder and (ls -a for the hidden files)
+to get status- git status, here notes folder is not upto date.
+when we change anything in the folder readme ,and save in vs code then to be seen in github
+we have to add then commit, till that we will see the modification in status
+files untrack - file that is untracked
