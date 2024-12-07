@@ -7,4 +7,33 @@ ls- gives list of folder and (ls -a for the hidden files)
 to get status- git status, here notes folder is not upto date.
 when we change anything in the folder readme ,and save in vs code then to be seen in github
 we have to add then commit, till that we will see the modification in status
-files untrack - file that is untracked
+files untrack - file that is untracked (here notes is untracked as we didnt even commited it till now,git dont know about it)
+modify- changed
+staged- ready to commited(wedding)
+unmodify- unchanged
+
+to add- git add <name of the file>; after that in status it is able to seen green in color; readme not modified
+to add all files git add .(now all are green)
+commit-recod of change ____ git commit -m "add some message"
+we are able to see 1 file ahead of original , 1 file is more in vs
+to see the change in github , push command from local to repo
+so we use _____git push origin main (if u using it for first time use the brower and setting) and you will get a huge message in terminal
+
+in hub if u want to see all the comments click on the icon comments in the right side of the same page with a clock beside
+
+here original is the name of default file and main is the branch that is visible in the left corner in hub
+
+to change the folder we use___cd.. (this move the folder outside); to make new directory we use ____mkdir NameOfRepo
+to move to it ___cd NameOfRepo
+when we say ls , no response as no git file in it , so to initationalise____git init
+by using the box+ symbol in the file add a file
+now to send this to the hub we have to create a new repo in the hub , but remainber not to set for readme as we to initialise it before in the new repo 
+after the creation we et a page that is full of words and with 2 blocks where link is there hence copy the linkand use the comment ____git remote add origin <link>
+to verify the remote we use ___git remote -v; a data of push and fetch in the braket is visible
+to tell at which branch we are we use ___git branch 
+to rename the branch ___git branch -M branch main(in many cases it comes as master to change to main we use this function)
+to take always in the same origin 
+___git push -u origin main
+and finally the code is transfered to it
+the use of the upper -u code is that when we add another file or data , after adding , we just have to code ___git (push it is attomatically commited)
+workflow --- github repo--clone in local --add--commit  50.00
