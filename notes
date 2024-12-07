@@ -37,3 +37,10 @@ ___git push -u origin main
 and finally the code is transfered to it
 the use of the upper -u code is that when we add another file or data , after adding , we just have to code ___git (push it is attomatically commited)
 workflow --- github repo--clone in local --add--commit  50.00
+
+to distribute the work we use branches
+to know in which branch your working ____git branch
+to change branch name _____git branch -M main (name of the branch to which it is to be changed)
+to create new branches _____git checkout -b <--new branch name -->
+to move other branch ______git checkout <--name of the other branch-->
+to delete branch _____git branch -d <--branch name-->; only the other not the branch your standing on
